@@ -1,0 +1,131 @@
+* {
+    text-decoration: none;
+   margin: 0;
+   padding: 0;
+}
+
+.navbar {
+    /* background-image:linear-gradient( rgb(150, 0, 250), rgb(156, 15, 171)); */
+    background-color: #000000;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 20px;
+   
+
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.nav-links {
+    display: flex;
+    /* float: left; */
+    justify-content: center;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    float: left;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul {
+    float: right;
+}
+
+nav li a:hover {
+    color: rgb(153, 0, 255);
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+    padding: 4px;
+}
+
+body {
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p2p-logo{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    margin-bottom: 0px;
+    max-width: 30%;
+    
+}
+
+.conatiner-vc{
+    align-items: center;
+    text-align: center; 
+    color: #ffffff;
+    font-size: 50px;
+    text-shadow: 2px 2px rgb(74, 10, 66);
+}
+.conatiner-about {
+    align-items: center;
+    font-size: 30px;
+    margin:0 30%;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 20px;
+    border: solid black 2px;
+    backdrop-filter: blur(10px);
+    font-family: "Roboto Mono", system-ui;
+    font-optical-sizing: auto;
+    font-weight:12;
+    font-style:normal;
+}
+
+.button-video{
+    display: flex;
+    margin-left: 47%;
+    margin-right: 53%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    max-width: 50px;
+  
+    
+}
+
+button {
+    background-color: #ff40d2; 
+    border: none;           
+    color: rgb(255, 255, 255);             
+    padding: 15px 32px;         
+    text-align: center;        /* Corrected 'centre' to 'center' */
+    text-decoration: none;      
+    display: inline-block;     
+    font-size: 16px;           
+    margin: 4px 2px;           
+    cursor: pointer;            
+    border-radius: 8px;         
+    transition: background-color 0.3s;
+  
+}
+  
+  button:hover {
+    background-color: yellow; 
+  }
+
+
+/* https://i.pinimg.com/564x/ad/fe/c6/adfec60620426c53f8b05e0e6ba4bebe.jpg */
