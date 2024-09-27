@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Popup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            width: 320px;
+            height: auto;
+            background-color: rgb(191, 212, 239);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            font-size: 40px;
+            color: rgb(4, 1, 1);
+            font-style: italic;
+            margin-bottom: 10px;
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(227, 218, 218);
+
+        }   
+        button {
+            display: inline-block;
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #3772df;
+            color: white;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 12px;
+        }
+        button:hover {
+            background-color: #d87796;
+        }
+        .smallFrame {
+            width: 150px;
+            height: 100px;
+        }
+
+        .logo { 
+            width: 250px;
+            height: 100px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>P2P  Extension</h1>
+
+
+    <!-- <img class="logo" src="./logo.jpeg" alt="PeerChat logo"> -->
+
+
+
+    <button id="video-chat-btn">Video Chat</button>
+    <button id="chat-btn">Chat</button>
+
+    <script src="agora-rtm-sdk-1.4.4.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>

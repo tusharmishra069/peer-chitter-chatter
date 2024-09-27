@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "p2p video&file",
+  "version": "0.1.0",
+  "description": "Video call functionality",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "microphone",
+    "camera"
+  ],
+  "host_permissions": [
+    "https://tusharmishra069.github.io/peer-chitter-chatter/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
+
