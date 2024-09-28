@@ -35,7 +35,7 @@ let showInputField = (id) => {
 let handleJoin = (id, inputValue) => {
     if (id === 'video-chat') {
         // Navigate to the video chat room with the entered room code
-        const url = `https://tusharmishra069.github.io/peer-chitter-chatter/index.html?room=${inputValue}`;
+        const url = `https://tusharmishra069.github.io/peer-chitter-chatter/index1.html?room=${inputValue}`;
         window.open(url, "_blank");
     }
     // Additional functionality for chat can be added here later if needed
