@@ -1,8 +1,5 @@
-let APP_ID = "a176b0ab6ade46c487b69b0d599e4283"
+let APP_ID = "Your api id"
 
-// a176b0ab6ade46c487b69b0d599e4283
-
-// 8d1baace19b0497fb55e18f094a506ca
 let token = null;
 let uid = String(Math.floor(Math.random() * 10000))
 
